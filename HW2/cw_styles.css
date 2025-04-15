@@ -1,0 +1,152 @@
+s@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 3
+   
+   Civil War History Style Sheet
+   Author: RaVon Rhone		
+   Date:   14 Sept. 2017
+   
+   Filename: cw_styles.css
+*/
+
+@import url("cw_layout.css");
+
+/* Structural Styles */
+html {
+	background-color: rgb(151,151,151);
+}
+
+
+
+
+h1.normal {font-weight: normal;}
+h2.normal {font-weight: normal;}
+
+nav a {text-decoration: none;}
+
+
+
+/* Body Header Styles */
+body {
+	background-color: rgb(180,180,223);
+	font-family: Verdana, Geneva, sana-serif;
+}
+
+body > header {
+	background-color: rgb(97,97,211);
+}
+
+body > header > h1 {
+	font-weight: normal;
+	font-size: 4vw; 
+	background-color: rgba(255,255,255,0.8);
+	font-family:'Limelight', cursive;
+	margin: 0px;
+}
+
+
+h1 span {
+	color: rgba(255, 255,225,0.4);
+}
+
+body > header > h2 {
+	font-weight: normal;
+	text-align: center;
+}
+
+
+/* Footer Styles*/
+body > footer {
+	background-color: rgb(101,101,101);
+	color: white;
+	font-size: normal 0.8em;
+	text-align: center;
+	padding: 1px 0;}
+}
+
+
+
+/* Navigation Styles */
+nav#mainLinks a:visited {color: white;} 
+nav#mainLinks a:link {
+	color: white;
+}
+
+
+
+nav#mainLinks a {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration: none;
+}
+
+
+nav#mainLinks a:hover { background-color: rgba(51, 51, 51, 0.5);
+	color: white;
+	opacity: 0.8; }
+nav#mainLinks a:active {
+	background-color: rgba(51, 51, 51, 0.5);
+	color: white;
+}
+
+/* Outline Styles */
+#outline {
+	color: rgb(51, 51, 51);
+	font-size: 0.8em;
+	text-decoration: none
+}
+
+#outline > h1 { text-align: center;
+}
+
+#outline > ol {
+	list-style-type: upper-roman;
+	line-height: 2em;
+	margin: 0px 5px;
+}
+
+#outline ol ol {
+	list-style: upper-alpha;
+}
+
+#outline a: visited, #outline a: links {
+	color: rgb(101,101,101);
+}
+
+a: hover 
+a: active {
+	color: rgb(97, 97, 211);
+	text-decoration: none;
+}
+/* Section Styles */
+section { background-color: rgb(220, 220, 220);
+}
+
+section header h1 {
+	font-size: 2.2em;
+	padding-left-left: 10px;
+	
+}
+
+/* Article Styles */
+
+article h2 {
+	font-size: 1.4em;
+}
+
+article p: first-of-type:: first-letter {
+	font-size: 2em;
+	vertical-align: baseline;
+}
+
+
+/* Aside Styles */
+aside {
+	font-size: 0.9em;
+}
+aside h1 {
+	text-align: center;
+	font-size: 1.4em;
+}
