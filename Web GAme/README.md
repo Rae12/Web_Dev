@@ -64,8 +64,13 @@ This project was originally created in 2017. It’s a fun retro web project from
 
 ---
 
-## 📃 License
-MIT License 
+## 🧾 License
+
+This project is licensed under the MIT License.  
+Originally created by [Captain Anonymous](https://codepen.io/anon/pen/WdebYe),  
+Forked from a project by [offline_blogger](https://codepen.io/offline_blogger/pen/Kedtr).
+
+See the [LICENSE](LICENSE) file for more details.
 
 ---
 
