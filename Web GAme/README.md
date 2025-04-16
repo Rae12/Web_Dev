@@ -50,30 +50,31 @@ cd hangman-game
 open index.html
 ```
 ---
-##🛠️ Tech Used
+## 🛠️ Tech Used
 HTML5
-
 CSS3 (with Google Fonts)
-
 Vanilla JavaScript🛠️ Tech Used
 HTML5
-
 CSS3 (with Google Fonts)
-
 Vanilla JavaScript
 ---
-##📅 Original Code Year
+
+## 📅 Original Code Year
 This project was originally created in 2017. It’s a fun retro web project from when I was learning front-end basics.
+
 ---
-##📃 License
+
+## 📃 License
 MIT License 
+
 ---
-##🙌 Author
+
+## 🙌 Author
 Coded by RaVon
 Feel free to connect or leave feedback!
 ---
 
----
-
 Let me know if you want to personalize this more with your name, GitHub link, or if you'd like a hosted preview URL section.
+
+---
 
