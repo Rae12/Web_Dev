@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>A Simple Hangman Game</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1>Hangman<br>Your favorite classroom pastime returns!</h1>
+
+  <div id="rateField"></div>
+
+  <form name="rateformular">
+    <input name="ratezeichen" type="text" size="5" maxlength="1" autocomplete="off">
+    <input name="ratebutton" type="button" value="Guess" onClick="checkSign()">
+
+    <p>Wrong Letters:</p>
+    <div id="advisedLetters"></div>
+
+    <img src="https://i.imgur.com/5fXv2QD.png" id="hangman">
+<br />
+
+    <input name="refresh" type="button" value="New Game" onClick="location.reload()">
+  </form>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
+
