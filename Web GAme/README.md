@@ -48,6 +48,7 @@ Sound effects for:
 git clone https://github.com/yourusername/hangman-game.git
 cd hangman-game
 open index.html
+```
 ---
 ##🛠️ Tech Used
 HTML5
